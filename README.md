@@ -8,7 +8,7 @@
 ### How to install - directly from github instead of PyPI
 
 ```bash
-$ pip install git+https://github.com/rockstreamguy/deepbrain.git#egg=deepbrain
+$ pip install git+https://github.com/NOEL-MNI/deepbrain.git#egg=deepbrain
 ```
 
 #### Available tools:
@@ -56,7 +56,7 @@ See `deepbrain-extractor -h` for more information.
 #### As python
 
 ```python
-import nibabel as nb
+import nibabel as nib
 from deepbrain import Extractor
 
 # Load a nifti as 3d numpy image [H, W, D]
